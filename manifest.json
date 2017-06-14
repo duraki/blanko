@@ -1,8 +1,8 @@
 {
-  "name": "say.hi",
-  "version": "0.0.1",
+  "name": "Blanko",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Use this extension to have a minimal blank page which bring happines in your life.",
+  "description": "New tab - a new chance for inspirational word.",
   "homepage_url": "https://github.com/duraki/say.hi",
   "icons": {
     "16": "icons/icon16.png",
