@@ -1,11 +1,12 @@
 {
   "name": "Blanko",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "description": "New tab - a new chance for inspirational word.",
-  "homepage_url": "https://github.com/duraki/say.hi",
+  "description": "New tab - a new chance for inspiration.",
+  "homepage_url": "https://github.com/duraki/blanko",
   "icons": {
     "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
