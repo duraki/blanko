@@ -17,10 +17,50 @@
         font-family: 'Roboto Thin';
 		font-size: 2em;
 	}
+
+        .header {
+            background-color: #fff;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .logo {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }   
+
+        .text {
+            text-align: center;
+            font-family: 'Roboto';
+            font-size: 2em;
+            font-weight: 100;
+        }   
+
+        .url {
+            text-align: center;
+            font-family: 'Roboto';
+            font-size: 1em;
+            font-weight: 300;
+            color: #988f8f;
+        }
 </style>
 
 <div id="mainPopup">
-    <img src="
-<h1>say.hi!</h1>
-<p>To shut this popup down, edit the manifest file and remove the "default popup" key. To edit it, just edit ext/browser_action/browser_action.html. The CSS is there, too.</p>
+    <div class="header">
+        <div class="logo"><img src="/icons/icon48.png" /></div>
+        <div class="title"><h1><code>blanko</code></h1></div>
+    </div>
+
+    <div class="text">
+        <p>Minimal New Tab</p>
+    </div>
+
+    <div class="url">
+        https://duraki.github.io/blanko
+    </div>
 </div>
