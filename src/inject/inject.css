@@ -1,5 +1,8 @@
 /**
- * Place your custom CSS styles here.
+ * Blanko - Custom CSS properties
+ *
+ * @author <duraki@linuxmail.org>
+ * @see https://developer.chrome.com/extensions/content_scripts
  **/
 
 @font-face {
@@ -17,7 +20,6 @@
 p {
 	font-weight: 100;
 	font-family: 'RobotoThin';
-	/*font-size: 200px;*/
 	font-size: 17.2vw;
 	color: #2c3236;
 	opacity: 1;
