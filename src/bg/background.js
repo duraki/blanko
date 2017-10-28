@@ -1,7 +1,3 @@
-// var settings = new Store("settings", {
-//     "sample_setting": "This is how you use Store.js to remember values"
-// });
-
 var newtab = null;
 document.title = ""
 
@@ -15,6 +11,5 @@ chrome.extension.onMessage.addListener(
 // chrome tabs new listener
 chrome.tabs.onCreated.addListener(
   function(tab) {
-    console.log('Welcome master.');
     newtab = tab;
   });

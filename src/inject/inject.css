@@ -13,27 +13,27 @@
 }
 
 .center {
-  	height: 50px;
-  	text-align: center;
+    height: 50px;
+    text-align: center;
 }
 
 p {
-	font-weight: 100;
-	font-family: 'RobotoThin';
-	font-size: 17.2vw;
-	color: #2c3236;
-	opacity: 1;
+    font-weight: 100;
+    font-family: 'RobotoThin';
+    font-size: 17.2vw;
+    color: #2c3236;
+    opacity: 1;
 }
 
 .save_butt {
-	padding: 2px;
-	padding-left: 3px;
-	padding-right: 3px;
-	color: #3a3a3a;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 4px;
-	font-family: Helvetica, 'RobotoThin';
-	text-transform: none;
-	background: #ff8c21;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #3a3a3a;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Helvetica, 'RobotoThin';
+    text-transform: none;
+    background: #ff8c21;
 }

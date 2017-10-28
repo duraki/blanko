@@ -12,8 +12,8 @@ function save_options()
         var status = document.getElementById('status');
         status.textContent = 'Option saved.';
 
-            setTimeout(function() {
-                    status.textContent = '';
+            setTimeout(function() { /** hide save message after this timeout */
+                status.textContent = '';
             }, 750);
 
         });
@@ -24,7 +24,7 @@ function restore_options()
 {
     // Defaults.
     chrome.storage.sync.get({
-        inspireData: 'Hi. Hey. Enjoy.',
+        inspireData: 'Hello.',
         darkTheme: 0 
     }, function(items) {
         document.getElementById('inspire').value = items.inspireData;

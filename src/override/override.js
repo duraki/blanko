@@ -1,5 +1,4 @@
 // inspire user with the message
-
 var datamsg;
 
 function render(text) {
