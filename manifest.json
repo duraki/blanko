@@ -1,6 +1,6 @@
 {
   "name": "Blanko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "New tab - a new chance for inspiration.",
   "homepage_url": "https://duraki.github.io/blanko",
@@ -22,11 +22,8 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "New Tab",
-    "default_popup": "src/browser_action/browser_action.html",
-    "js": [
-      "src/inject/inject.js"
-    ]
+    "default_title": "",
+    "default_popup": "src/browser_action/browser_action.html"
   },
   "chrome_url_overrides": {
     "newtab": "src/override/override.html"
@@ -35,27 +32,8 @@
     "tabs",
     "storage"
   ],
-  "content_scripts": [
-    {
-      "matches": [
-        "https://www.google.com/*"
-      ],
-      "css": [
-        "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://www.google.com/*"
-      ],
-      "js": [
-        "src/inject/inject.js"
-      ]
-    }
-  ],
   "web_accessible_resources": [
     "fonts/*.ttf",
-    "src/inject/inject.js",
     "src/options/options.js"
   ]
 }
